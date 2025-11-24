@@ -1,0 +1,59 @@
+[
+  {
+    "reviewId": "mock-review-1",
+    "authorName": "Alex Rivera",
+    "comments": [
+      {
+        "userComment": {
+          "text": "Latest update crashes when I switch profiles.",
+          "lastModified": {"seconds": "1731600000", "nanos": 0},
+          "starRating": 2,
+          "reviewerLanguage": "en",
+          "appVersionName": "5.4.1",
+          "thumbsUpCount": 4,
+          "thumbsDownCount": 0
+        }
+      },
+      {
+        "developerComment": {
+          "text": "Thanks Alex! We patched this in 5.4.2 rolling out now.",
+          "lastModified": {"seconds": "1731686400", "nanos": 0}
+        }
+      }
+    ]
+  },
+  {
+    "reviewId": "mock-review-2",
+    "authorName": "Jordan Mehta",
+    "comments": [
+      {
+        "userComment": {
+          "text": "Loving the new dark mode and offline sync!",
+          "lastModified": {"seconds": "1731772800", "nanos": 0},
+          "starRating": 5,
+          "reviewerLanguage": "en",
+          "appVersionName": "5.4.2",
+          "thumbsUpCount": 10,
+          "thumbsDownCount": 1
+        }
+      }
+    ]
+  },
+  {
+    "reviewId": "mock-review-3",
+    "authorName": "Sam Lee",
+    "comments": [
+      {
+        "userComment": {
+          "text": "Notifications randomly stop, please fix.",
+          "lastModified": {"seconds": "1731859200", "nanos": 0},
+          "starRating": 3,
+          "reviewerLanguage": "en",
+          "appVersionName": "5.4.2",
+          "thumbsUpCount": 2,
+          "thumbsDownCount": 0
+        }
+      }
+    ]
+  }
+]

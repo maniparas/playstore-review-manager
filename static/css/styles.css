@@ -1,0 +1,42 @@
+:root {
+  --primary: #1a73e8;
+  --bg-muted: #f5f7fb;
+}
+
+body {
+  background-color: var(--bg-muted);
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar-brand span {
+  font-weight: 600;
+}
+
+.card-insight {
+  min-height: 130px;
+}
+
+#reviews-table tbody tr {
+  transition: background 0.2s ease;
+}
+
+#reviews-table tbody tr:hover {
+  background-color: rgba(26, 115, 232, 0.08);
+}
+
+.badge-rating {
+  font-size: 0.85rem;
+}
+
+.ai-brief {
+  border-left: 4px solid var(--primary);
+  background-color: white;
+}
+
+.loading-indicator {
+  display: none;
+}
+
+.loading .loading-indicator {
+  display: inline-flex;
+}
