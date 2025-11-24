@@ -21,6 +21,7 @@ def test_settings() -> Settings:
     return Settings(
         default_package_name="com.test.app",
         google_service_account_file="",
+        google_play_scopes=["https://www.googleapis.com/auth/androidpublisher"],
         enable_mock_mode=True,
         ai_provider=None,
         openai_api_key=None,
